@@ -24,6 +24,13 @@
 		left: 50%	
 		margin-left: 150px
 		margin-top: -400px
+	.bcg_prog
+		position: absolute
+		left: 50%
+		margin-left: -370px
+		margin-top: -600px
+		z-index: -1
+		transform: scale(-1, 1)
 	.bcg_check
 		width: 65%
 		position: absolute
@@ -34,8 +41,26 @@
 		.teacher
 			img
 				margin-top: 50%
+	.zena
+		.knopka	
+			padding-bottom: 16px
+			a
+				height: 80px
+				background-color: #1a52ac
+				border-radius: 40px
+				text-align: center
+				padding: 20px 20px
+
+				b
+					font-size: 16px
+					color: white
+					font-weight: 900
 // ≥992px
 +media-breakpoint-down(md)
+	.header
+		text-align: center
+	h2
+		margin-left: 5%
 	.preim
 		.card
 			height: auto
@@ -51,11 +76,17 @@
 			height: auto
 			text-align: center
 			padding: 40px
-
+			width: 90%
+			margin-left: 5%
 	.bcg_prog
 		width: 0px
-	
-
+	.zena
+		.card
+			height: auto
+			text-align: center
+			padding: 40px
+			width: 90%
+			margin-left: 5%
 // ≥768px
 +media-breakpoint-down(sm)
 	.header
